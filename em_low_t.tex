@@ -1,0 +1,139 @@
+\documentclass[a4paper,12pt]{article}
+
+
+\setlength{\parindent}{0mm}
+\setlength{\oddsidemargin}{-5mm}
+\setlength{\evensidemargin}{-5mm}
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{230mm}
+\setlength{\topmargin}{-10mm}
+\setlength{\marginparwidth}{15mm}
+\setlength{\marginparsep}{7mm}
+%\setlength{\cftsecnumwidth}{2.3cm}
+
+
+\usepackage{graphicx}
+\usepackage{pifont}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{listings}
+
+
+\lstset{language=Java} 
+\lstset{backgroundcolor=\color{yellow}}
+\lstset{commentstyle=\texttt,stringstyle=\ttfamily,showspaces=false,showstringspaces=false}
+\lstset{frame=single,frameround=tttt}
+
+
+\usepackage[usenames]{color}
+\newcommand{\Red}{\color{red}}
+\newcommand{\Blue}{\color{blue}}
+\definecolor{green}{rgb}{0,1,0.28}
+\newcommand{\Green}{\color{green}}
+\definecolor{brown}{rgb}{.52,.23,.0}
+\newcommand{\Brown}{\color{brown}}
+
+
+\usepackage{hyperref}
+
+\newcommand{\tick}{\ding{51}}
+\newcommand{\cross}{\ding{55}}
+\begin{document}
+
+
+\title{A Literature Review of Methods of Shielding Low-Temperature and Low-Noise Environments from Electromagnetic Interference}
+\author{Jean Morris, Physics MPhys, Phys452 }
+\date{30/06/16}
+
+
+
+\maketitle
+
+\begin{abstract}
+
+\begin{itemize}
+\item Motivation of literature review - gain a broad overview of the potential methods of shielding against E.M radiation in low temp. environments; superconductors, permeable material, EMI filters. Also understand mechanisms behind the low temperature fridges, shielding,E.M fields (including numerical modelling), quantifying shielding and methods of determining shielding effectiveness.  
+\item Best methods ascertained to shield and to determine shielding characteristics 
+\end{itemize}
+
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+  \begin{itemize}
+  \item Important motivation for the work - shielding from heat/E.M is essential for low noise and low temperature environments that devices such as QUIBITS perform in. 
+  \item Quick overview of current methods of shielding in the industry and their uses in low T and low noise environments
+
+  \end{itemize}
+  
+  
+
+       
+\section{Low-Temperature Environments}
+\subsection{Introduction to Low-T enviroments}
+\begin{itemize}
+\item Explain why E.M affects low noise low T environments. 
+\item What exact shielding is required in these experiments and the constraints of the environments (i.e small etc.) and other similar environments in the industry and what shielding is used for QUIBITS etc.. 
+
+\subsection{Methods Of Cooling}
+\item How a low temperature is achieved at lancaster and worldwide- magnetic methods, other methods i.e liquid nitrogen etc. and insulation - how to keep the environment cool.
+ 
+\subsection{Computer modelling of system}
+\item Numerical modelling of the system in order to see how the system behaves - discussion of how environments are currently modelled, how we can use this to improve shielding. 
+\end{itemize}
+
+\section{E.M.I Filtering}
+\subsection{Uses and Mechanisms of E.M.I Filters}
+\begin{itemize}
+\item What are filtering devices and the mechanisms behind them and how their shielding effectiveness is quantified
+\item How they could be used in the fridge/fit in with other shielding methods - protect wires etc.
+\end{itemize}
+\subsection{Review of Potential Filters}
+\begin{itemize}
+\item Current E.M.I filters and ones being researched and their pros/cons and which one would be the best for the project
+\end{itemize}
+
+
+\section{Permeable shielding material}
+\subsection{Uses and Mechanisms of Permeable Shielding Materials}
+\begin{itemize}
+\item What are permeable materials and the mechanisms behind them - shielding =  absorption + reflection, skin effect etc.. Different shapes that could be made
+\item How they could be used in the fridge/fit in with other shielding methods how their shielding effectiveness is quantified
+\end{itemize}
+\subsection{Review of Potential Shielding Materials}
+\begin{itemize}
+\item Current materials and ones being researched and their pros/cons and which one would be the best for the project - difficult to use materials as experiments are small and they do not block all E.M - potentially shield outside of fridge. 
+\end{itemize}
+
+\section{Superconducting shields}
+\subsection{Uses and Mechanisms of Superconducting Shields}
+\begin{itemize}
+\item What are superconducting shields and the mechanisms behind them, how their shielding effectiveness is quantified
+\item How they could be used in the fridge/fit in with other shielding methods
+\end{itemize}
+\subsection{Review of Potential Superconducting Shields}
+\begin{itemize}
+
+\item Current materials and ones being researched and their pros/cons and which one would be the best for the project - possibly best option as they completely do not allow fields that are perpendicular to them - but expensive and require cooling. Cylindrical diamagnetic shields etc. 
+\end{itemize}
+
+\section{Conclusion}
+\begin{itemize}
+\item 
+Best shielding methods to use and to explore and the best way to quantify the shielding characteristics of these materials i.e the experiments to conduct in the project. Further work and uses. 
+\end{itemize}
+	
+	
+	
+	 	
+
+\begin{thebibliography}{9}
+
+
+
+\end{thebibliography}
+\appendix 
+\section{Appendix}
+\end{document}
